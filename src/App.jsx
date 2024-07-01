@@ -11,7 +11,7 @@ import UserInfo from "./components/user/UserInfo";
 import NotFound from "./components/NotFound";
 import Order from "./components/order/Order";
 import Orders from "./components/order/Orders";
-
+const base = '/react-food-delivery-simulator/'
 const router = createBrowserRouter([
     {
         path:'/react-food-delivery-simulator/',
@@ -23,27 +23,27 @@ const router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: 'menu',
+                path: base+'menu',
                 element: <Menu />
             },
             {
-                path: 'cart',
+                path: base+'cart',
                 element: <Cart />
             },
             {
-                path: 'order/new',
+                path: base+'order/new',
                 element: <OrderConf />
             },
             {
-                path: 'order/:orderNo',
+                path: base+'order/:orderNo',
                 element: <Order />
             },
             {
-                path: 'orders',
+                path: base+'orders',
                 element: <Orders />
             },
             {
-                path: 'user/:username',
+                path: base+'user/:username',
                 element: <UserInfo />,
             },
         ],
