@@ -44,7 +44,7 @@ const OrderConf = () => {
         setTimeout(()=>{
 
             showLoading(false)
-            navigator(`order/${orderNo}`)
+            navigator(`/react-food-delivery-simulator/order/${orderNo}`)
         },3500)
         
         
@@ -95,7 +95,7 @@ const OrderConf = () => {
                         </>
                     )
             }
-            <Button value={'Edit'} onClick={()=>navigator(`user/${user.username}`)} className='mr-auto px-4 py-3'/>
+            <Button value={'Edit'} onClick={()=>navigator(`/react-food-delivery-simulator/user/${user.username}`)} className='mr-auto px-4 py-3'/>
         </div>
         
     )

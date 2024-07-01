@@ -35,7 +35,7 @@ const Orders = () => {
                                             </div>
 
                                         </div>
-                                        <div className={`flex items-center ${order.eta === 0 && 'opacity-55'}`}><Button onClick={()=>navigator(`order/${order.orderNo}`)} value={'View'} className='px-4 py-2 shadow-sm'/></div>
+                                        <div className={`flex items-center ${order.eta === 0 && 'opacity-55'}`}><Button onClick={()=>navigator(`/react-food-delivery-simulator/order/${order.orderNo}`)} value={'View'} className='px-4 py-2 shadow-sm'/></div>
                                     </li>
 
                                 ))}

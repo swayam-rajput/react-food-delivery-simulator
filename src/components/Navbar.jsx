@@ -65,7 +65,7 @@ const Navbar = () => {
 									<div className={`${menuShown ? 'block':'hidden'}  transition-all   px-3 py-3 mb-1 bg-white text-black drop-shadow-lg shadow-md  text-wrap -right-8 rounded	 mt-1 text-sm absolute `}
 										onMouseLeave={()=>toggleMenu(false)}
 									onClick={()=>{setTimeout(()=>{toggleMenu(false)},200)}}>
-										<div  onClick={()=>navigator(`user/${theuser}`)} className='hover:bg-slate-200 active:bg-slate-200 opacity-80 hover:opacity-100 rounded px-2 py-1 transition-all cursor-pointer ' >Account</div>
+										<div  onClick={()=>navigator(`/react-food-delivery-simulator/user/${theuser}`)} className='hover:bg-slate-200 active:bg-slate-200 opacity-80 hover:opacity-100 rounded px-2 py-1 transition-all cursor-pointer ' >Account</div>
 										
 										<div className='hover:bg-slate-200 active:bg-slate-200 opacity-80 hover:opacity-100 rounded px-2 py-1 transition-all cursor-pointer group ' onClick={()=>navigator('/react-food-delivery-simulator/orders')} >Orders</div>
 										<div onClick={()=>{
