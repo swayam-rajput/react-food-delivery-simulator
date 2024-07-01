@@ -1,0 +1,103 @@
+[
+    {
+        "name":"Margherita",
+        "ingredients":"Tomato, Mozzarella, Basil",
+        "price":12.00
+    },
+
+    {
+        "name":"Capricciosa",
+        "ingredients":"Tomato, Mozzarella, Ham, Mushrooms, Artichoke",
+        "price":10.00
+    },
+
+    {
+        "name":"Romana",
+        "ingredients":"Tomato, Mozzarella, Prosciutto",
+        "price":15.00
+    },
+
+    {
+        "name":"Prosciutto e Rucola",
+        "ingredients":"Tomato, Mozzarella, Prosciutto, Arugula",
+        "price":16.00
+    },
+
+    {
+        "name":"Diavola",
+        "ingredients":"Tomato, Mozzarella, Spicy Salami, Chili Flakes",
+        "price":16.00
+    },
+
+    {
+        "name":"Vegetale",
+        "ingredients":"Tomato, Mozzarella, Bell Peppers, Onions, Mushrooms",
+        "price":13.00
+    },
+
+    {
+        "name":"Napoli",
+        "ingredients":"Tomato, Mozzarella, Fresh Tomato, Basil",
+        "price":16.00
+    },
+
+    {
+        "name":"Pepperoni",
+        "ingredients":"Tomato, Mozzarella, Pepperoni",
+        "price":14.00
+    },
+
+    {
+        "name":"Hawaiian",
+        "ingredients":"Tomato, Mozzarella, Pineapple, Ham",
+        "price":15.00
+    },
+
+    {
+        "name":"Spinach and Mushroom",
+        "ingredients":"Tomato, Mozzarella, Spinach, Mushrooms",
+        "price":15.00
+    },
+
+    {
+        "name":"Mediterranean",
+        "ingredients":"Tomato, Mozzarella, Sun-Dried Tomatoes, Olives, Artichoke",
+        "price":16.00
+    },
+
+    {
+        "name":"Greek",
+        "ingredients":"Tomato, Mozzarella, Spinach, Feta, Olives, Pepperoncini",
+        "price":14.00
+    },
+
+    {
+        "name":"Abruzzese",
+        "ingredients":"Tomato, Mozzarella, Prosciutto, Arugula",
+        "price":16.00
+    },
+
+    {
+        "name":"Pesto Chicken",
+        "ingredients":"Pesto, Mozzarella, Chicken, Sun-Dried Tomatoes, Spinach",
+        "price":16.00
+    },
+
+    {
+        "name":"Eggplant Parmesan",
+        "ingredients":"Marinara, Mozzarella, Eggplant, Parmesan",
+        "price":15.00
+    },
+
+    {
+        "name":"Roasted Veggie",
+        "ingredients":"Marinara, Mozzarella, Zucchini, Eggplant, Peppers, Onions",
+        "price":15.00
+    },
+
+    {
+        "name":"Tofu and Mushroom",
+        "ingredients":"Marinara, Mozzarella, Tofu, Mushrooms, Bell Peppers",
+        "price":15.00
+    }
+]
