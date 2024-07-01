@@ -14,41 +14,42 @@ import Orders from "./components/order/Orders";
 
 const router = createBrowserRouter([
     {
-        path:'react-food-delivery-simulator/',
-        element:<Layout/>,
-        errorElement:<NotFound/>,
-        children:[
+        path: '/react-food-delivery-simulator/',
+        element: <Layout />,
+        errorElement: <NotFound />,
+        children: [
             {
-                path:'./',
-                element:<Home/>
+                path: '/react-food-delivery-simulator/',
+                element: <Home />
             },
             {
-                path:'./menu',
-                element:<Menu/>
+                path: '/react-food-delivery-simulator/menu',
+                element: <Menu />
             },
             {
-                path:'./cart',
-                element:<Cart/>
+                path: '/react-food-delivery-simulator/cart',
+                element: <Cart />
             },
             {
-                path:'./order/new',
-                element:<OrderConf/>
+                path: '/react-food-delivery-simulator/order/new',
+                element: <OrderConf />
             },
             {
-                path:'./order/:orderNo',
-                element:<Order/>
+                path: '/react-food-delivery-simulator/order/:orderNo',
+                element: <Order />
             },
             {
-                path:'./orders',
-                element:<Orders/>
+                path: '/react-food-delivery-simulator/orders',
+                element: <Orders />
             },
             {
-                path:`./user/:username`,
-                element:<UserInfo/>,
+                path: '/react-food-delivery-simulator/user/:username',
+                element: <UserInfo />,
             },
         ],
     }
-])
+]);
+
 function App(){
     return <RouterProvider router={router} />;
 }
