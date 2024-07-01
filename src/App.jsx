@@ -14,42 +14,41 @@ import Orders from "./components/order/Orders";
 const base = '/react-food-delivery-simulator/'
 const router = createBrowserRouter([
     {
-        path:'/react-food-delivery-simulator/',
-        element: <Layout />,
-        errorElement: <NotFound />,
-        children: [
-            {
-                path: '',
-                element: <Home />
-            },
-            {
-                path: base+'menu',
-                element: <Menu />
-            },
-            {
-                path: base+'cart',
-                element: <Cart />
-            },
-            {
-                path: base+'order/new',
-                element: <OrderConf />
-            },
-            {
-                path: base+'order/:orderNo',
-                element: <Order />
-            },
-            {
-                path: base+'orders',
-                element: <Orders />
-            },
-            {
-                path: base+'user/:username',
-                element: <UserInfo />,
-            },
-        ],
+      path: '/react-food-delivery-simulator/',
+      element: <Layout />,
+      errorElement: <NotFound />,
+      children: [
+        {
+          path: '/react-food-delivery-simulator/',
+          element: <Home />
+        },
+        {
+          path: '/react-food-delivery-simulator/menu',
+          element: <Menu />
+        },
+        {
+          path: '/react-food-delivery-simulator/cart',
+          element: <Cart />
+        },
+        {
+          path: '/react-food-delivery-simulator/order/new',
+          element: <OrderConf />
+        },
+        {
+          path: '/react-food-delivery-simulator/order/:orderNo',
+          element: <Order />
+        },
+        {
+          path: '/react-food-delivery-simulator/orders',
+          element: <Orders />
+        },
+        {
+          path: '/react-food-delivery-simulator/user/:username',
+          element: <UserInfo />,
+        },
+      ],
     }
 ]);
-
 function App(){
     return <RouterProvider router={router} />;
 }
