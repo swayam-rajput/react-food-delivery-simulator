@@ -46,7 +46,7 @@ const Navbar = () => {
 					
 							
 							<div className='flex sm:gap-8 gap-4' >
-								<div className='flex  cursor-pointer transition-opacity active:opacity-20 ' onClick={()=>navigator('/cart')}>
+								<div className='flex  cursor-pointer transition-opacity active:opacity-20 ' onClick={()=>navigator('cart')}>
 									<svg  className='opacity-65 hover:opacity-100 active:scale-95 scale-100 ' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke='currentColor' strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
 									<path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/>
 									</svg>
@@ -67,7 +67,7 @@ const Navbar = () => {
 									onClick={()=>{setTimeout(()=>{toggleMenu(false)},200)}}>
 										<div  onClick={()=>navigator(`/user/${theuser}`)} className='hover:bg-slate-200 active:bg-slate-200 opacity-80 hover:opacity-100 rounded px-2 py-1 transition-all cursor-pointer ' >Account</div>
 										
-										<div className='hover:bg-slate-200 active:bg-slate-200 opacity-80 hover:opacity-100 rounded px-2 py-1 transition-all cursor-pointer group ' onClick={()=>navigator('/orders')} >Orders</div>
+										<div className='hover:bg-slate-200 active:bg-slate-200 opacity-80 hover:opacity-100 rounded px-2 py-1 transition-all cursor-pointer group ' onClick={()=>navigator('orders')} >Orders</div>
 										<div onClick={()=>{
 											dispatch(updateUser({username:'',phno:'',address:''}))
 											dispatch(clearCart())

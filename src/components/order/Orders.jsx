@@ -13,7 +13,7 @@ const Orders = () => {
             (
                 <div className='flex h-96 gap-7 justify-center flex-col items-center'>
                     <div className='items-center flex text-xl tracking-wide text-center'>You havent ordered anything yet</div>
-                    <div className=' items-center flex text-xl tracking-wide'><div className='pt-6 pb-1 cursor-pointer text-blue-500 border-blue-500  opacity-80 hover:opacity-100  transition border-b' onClick={()=>navigator('/menu')}>Order something</div></div>
+                    <div className=' items-center flex text-xl tracking-wide'><div className='pt-6 pb-1 cursor-pointer text-blue-500 border-blue-500  opacity-80 hover:opacity-100  transition border-b' onClick={()=>navigator('menu')}>Order something</div></div>
                 </div>
             )  
               :

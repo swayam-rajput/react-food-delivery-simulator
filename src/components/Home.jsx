@@ -17,7 +17,7 @@ const Home = () => {
                     <CreateUser/>
                 )
                 :(
-                    <Button value="Continue Ordering" className='  shadow-slate-400 px-5 py-4' onClick={()=>navigator('/menu')} />
+                    <Button value="Continue Ordering" className='  shadow-slate-400 px-5 py-4' onClick={()=>navigator('menu')} />
                 )
                 }
             

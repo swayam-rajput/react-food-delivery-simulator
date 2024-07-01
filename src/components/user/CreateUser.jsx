@@ -8,7 +8,7 @@ import Button from '../component/Button'
 const CreateUser = () => {
     
     const [user,setUser] = useState('')
-    const navigater = useNavigate()
+    const navigator = useNavigate()
     const dispatcher = useDispatch()
     const userInfo = useSelector(state=>state.user)
     
@@ -17,7 +17,7 @@ const CreateUser = () => {
         if (user == '') return;
         dispatcher(updateUser({...userInfo,username:user}))
         
-        navigater('/menu')
+        navigator('menu')
         
     }
     return (

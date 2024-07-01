@@ -19,7 +19,7 @@ const Cart = () => {
         <>
         <div className="flex justify-center  flex-col px-5 py-6">
             
-            <Link to={'/'} className='text-sm w-fit text-slate-500 flex border-slate-500 border-b border-opacity-0 hover:border-opacity-100 transition-all'>
+            <Link to={''} className='text-sm w-fit text-slate-500 flex border-slate-500 border-b border-opacity-0 hover:border-opacity-100 transition-all'>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="4 -2 26 26" fill="none" stroke='#64748b'  strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg> Back to Home page</Link>
             {cart.length == 0 ? (
                 <div className='text-xl mt-5 font-medium tracking-wide mb-4'>Cart is empty</div>
@@ -47,7 +47,7 @@ const Cart = () => {
             {
                 cart.length != 0 ? (
                     <div className="flex gap-2 mt-6">
-                        <Button value={`Order For $${total_pay}`} className=' px-4 py-3 ' onClick={()=>navigator('/order/new')}/>
+                        <Button value={`Order For $${total_pay}`} className=' px-4 py-3 ' onClick={()=>navigator('order/new')}/>
                         <Button value="Clear" className=' bg-slate-400 hover:bg-slate-100 px-4 py-3 ' onClick={()=>{openModal(true)}}/>
                         <Modal open={modal} >
                             <div className="text-center font-black text-lg ">
