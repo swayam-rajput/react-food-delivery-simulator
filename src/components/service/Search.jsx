@@ -6,7 +6,7 @@ const Search = () => {
     const navigator = useNavigate();
     const [query,setQuery] = useState('');
     return (
-        <form onSubmit={(e)=>{e.preventDefault();navigator(`/order/${query}`)}}>
+        <form onSubmit={(e)=>{e.preventDefault();navigator(`order/${query}`)}}>
             <div className='inline-flex ml-5'>
                 <Input placeholder='Order #' onChange={(e)=>setQuery(e.target.value)} className='h-8  text-black w-24 placeholder-shown:text-xs tracking-tight sm:px-4 pl-2 py-2 sm:w-52 ' />
                 <button className='flex relative top-1 right-8' type='submit' >

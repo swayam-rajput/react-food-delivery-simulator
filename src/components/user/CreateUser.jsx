@@ -17,7 +17,7 @@ const CreateUser = () => {
         if (user == '') return;
         dispatcher(updateUser({...userInfo,username:user}))
         
-        navigator('menu')
+        navigator('/react-food-delivery-simulator/menu')
         
     }
     return (
