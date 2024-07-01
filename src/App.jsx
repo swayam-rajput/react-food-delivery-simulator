@@ -14,7 +14,7 @@ import Orders from "./components/order/Orders";
 
 const router = createBrowserRouter([
     {
-        path:'/',
+        path:'/react-food-delivery-simulator/',
         element:<Layout/>,
         errorElement:<NotFound/>,
         children:[
